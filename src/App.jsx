@@ -24,13 +24,13 @@ function App() {
             </p>
             <div className="imgContactosContainer">
               <a href="https://github.com/Daviifv" target="_blank">
-                <img src="/src/assets/github.webp" alt="Logo Github" />
+                <img src="/assets/github.webp" alt="Logo Github" />
               </a>
               <a href="https://www.linkedin.com/in/david-fraile-vegas-8569b41b1" target="_blank">
-                <img src="/src/assets/linkedin.svg" alt="Logo Linkedin" />
+                <img src="/assets/linkedin.svg" alt="Logo Linkedin" />
               </a>
               <a href="mailto:davidfrailevegas@gmail.com" target="_blank">
-                <img src="/src/assets/email.svg" alt="Logo Linkedin" />
+                <img src="/assets/email.svg" alt="Logo Linkedin" />
               </a>
             </div>
           </div>

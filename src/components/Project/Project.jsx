@@ -14,7 +14,7 @@ export const Project = ({ title, p1, p2, p3, img, link }) => {
             </div>
           </div>
           <div className="containerImg">
-            <img src={`/src/assets/${img}.png`} alt={`Img de ${title}`} />
+            <img src={`/assets/${img}.png`} alt={`Img de ${title}`} />
           </div>
         </div>
       </a>
