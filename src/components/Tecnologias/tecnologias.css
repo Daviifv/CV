@@ -1,0 +1,34 @@
+img {
+  width: 100%;
+}
+
+div.tecnologiaContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 3rem;
+  box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff;
+  border-radius: 30px;
+  margin-top: 4rem;
+  flex-wrap: wrap;
+  flex: 0 0 calc(24% - 1.4rem);
+  max-width: calc(24% - 1.4rem);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.tecnologiaContainer:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .tecnologiaText{
+    display: none;
+  }
+  div.tecnologiaContainer {
+    flex: 0 0 calc(49% - 1.4rem);
+  max-width: calc(49% - 1.4rem);
+  }
+}
