@@ -26,7 +26,10 @@ function App() {
               <a href="https://github.com/Daviifv" target="_blank">
                 <img src="/assets/github.webp" alt="Logo Github" />
               </a>
-              <a href="https://www.linkedin.com/in/david-fraile-vegas-8569b41b1" target="_blank">
+              <a
+                href="https://www.linkedin.com/in/david-fraile-vegas-8569b41b1"
+                target="_blank"
+              >
                 <img src="/assets/linkedin.svg" alt="Logo Linkedin" />
               </a>
               <a href="mailto:davidfrailevegas@gmail.com" target="_blank">
@@ -51,9 +54,9 @@ function App() {
           <span className="title">Proyectos</span>
           <Project
             title="Web Scout"
-            p1="Web para mi grupo de scout, en la que para mayor facilidad les cree un panel de control."
-            p2="Desde este pueden actualizar las fotos, las circulares y los números de teléfono"
-            p3="Todo se gestiona gracias a una API en PHP y la página se ha desarrollado con React"
+            p1="Desarrollo de un sitio web para mi grupo scout, incluyendo un panel de control diseñado para optimizar la gestión interna."
+            p2="El panel permite actualizar fácilmente fotografías, circulares y contactos telefónicos, mejorando la comunicación del grupo."
+            p3="El sistema se gestiona mediante una API en PHP y la interfaz se ha desarrollado utilizando React."
             img="scout"
             link="https://www.scoutpleyadessalamanca.es"
           />
