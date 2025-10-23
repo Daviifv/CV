@@ -42,12 +42,15 @@ function App() {
           <span className="title">Tecnologías</span>
           <div className="tecnologiasContainer">
             <Tecnologias nombre={"java"} />
-            <Tecnologias nombre={"css"} />
-            <Tecnologias nombre={"js"} />
-            <Tecnologias nombre={"mongodb"} />
-            <Tecnologias nombre={"python"} />
             <Tecnologias nombre={"react"} />
+            <Tecnologias nombre={"js"} />
+            <Tecnologias nombre={"python"} />
             <Tecnologias nombre={"sql"} />
+            <Tecnologias nombre={"mongodb"} />
+            <Tecnologias nombre={"html"} />
+            <Tecnologias nombre={"css"} />
+            <Tecnologias nombre={"react-native"} />
+            <Tecnologias nombre={"android-java"} />
           </div>
         </article>
         <article id="Proyectos">

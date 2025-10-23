@@ -12,8 +12,8 @@ div.tecnologiaContainer {
   border-radius: 30px;
   margin-top: 4rem;
   flex-wrap: wrap;
-  flex: 0 0 calc(24% - 1.4rem);
-  max-width: calc(24% - 1.4rem);
+  flex: 0 0 calc(19% - 1.4rem);
+  max-width: calc(19% - 1.4rem);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   cursor: pointer;
 }
