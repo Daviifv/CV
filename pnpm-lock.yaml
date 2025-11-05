@@ -8,9 +8,6 @@ importers:
 
   .:
     dependencies:
-      '@vercel/analytics':
-        specifier: ^1.5.0
-        version: 1.5.0(react@19.1.1)
       react:
         specifier: ^19.1.1
         version: 19.1.1
