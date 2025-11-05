@@ -3,9 +3,11 @@ import { Tecnologias } from "./components/Tecnologias/tecnologias";
 import { Menu } from "./components/Nav/Menu";
 import { Project } from "./components/Project/Project";
 import { Contact } from "./components/Contact/Contact";
+import { Analytics } from "@vercel/analytics/next";
 function App() {
   return (
     <div className="all">
+      <Analytics />
       <header>
         <h1>David Fraile Vegas</h1>
         <Menu />
