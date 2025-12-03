@@ -9,11 +9,11 @@ importers:
   .:
     dependencies:
       react:
-        specifier: ^19.1.1
-        version: 19.1.1
+        specifier: ^19.2.0
+        version: 19.2.0
       react-dom:
         specifier: ^19.2.0
-        version: 19.2.0(react@19.1.1)
+        version: 19.2.0(react@19.2.0)
     devDependencies:
       '@eslint/js':
         specifier: ^9.36.0
@@ -769,8 +769,8 @@ packages:
     peerDependencies:
       react: ^19.2.0
 
-  react@19.1.1:
-    resolution: {integrity: sha512-w8nqGImo45dmMIfljjMwOGtbmC/mk4CMYhWIicdSflH91J9TyCyczcPFXJzrZ/ZXcgGRFeP6BU0BEJTw6tZdfQ==}
+  react@19.2.0:
+    resolution: {integrity: sha512-tmbWg6W31tQLeB5cdIBOicJDJRR2KzXsV7uSK9iNfLWQ5bIZfxuPEHp7M8wiHyHnn0DD1i7w3Zmin0FtkrwoCQ==}
     engines: {node: '>=0.10.0'}
 
   resolve-from@4.0.0:
@@ -1435,12 +1435,12 @@ snapshots:
 
   punycode@2.3.1: {}
 
-  react-dom@19.2.0(react@19.1.1):
+  react-dom@19.2.0(react@19.2.0):
     dependencies:
-      react: 19.1.1
+      react: 19.2.0
       scheduler: 0.27.0
 
-  react@19.1.1: {}
+  react@19.2.0: {}
 
   resolve-from@4.0.0: {}
 
